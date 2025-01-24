@@ -117,17 +117,6 @@ The project follows a Django project structure with the following key components
 3.  **Receive Response:**
     *   The chatbot will provide an answer by fetching the relevant information from the chosen website, or by responding using Gemini API.
 
-## Deployment to Render
-
-The following steps will guide you to deploy this application to Render:
-
-1.  **Prepare Project**: Make sure that you have `Procfile`, `requirements.txt`, and your Django project configured as described in this README.
-2.  **Github Repository**: Push all your code to your Git repository
-3.  **Create an Account:** Create an account on [Render](https://render.com).
-4.  **Create a Web Service:** Connect your Git repository to render and create a new web service.
-5.  **Set Environment Variables:** In Render settings, set the `GOOGLE_API_KEY` and `SECRET_KEY` environment variables.
-6.  **Configure the Build and Start Commands:**
-    *   **Build Command:** `pip install -r requirements.txt`
 
 ## Contributing
 
