@@ -128,13 +128,8 @@ The following steps will guide you to deploy this application to Render:
 5.  **Set Environment Variables:** In Render settings, set the `GOOGLE_API_KEY` and `SECRET_KEY` environment variables.
 6.  **Configure the Build and Start Commands:**
     *   **Build Command:** `pip install -r requirements.txt`
-    *   **Start Command:** `gunicorn cdp_chatbot.wsgi`
-7.  **Deploy:** Once the deployment has finished, access the URL provided by Render to see your deployed web application.
 
 ## Contributing
 
 Feel free to fork the repository and submit pull requests with improvements, bug fixes, or additional features.
 
-## License
-
-This project is open-sourced under the MIT license.
