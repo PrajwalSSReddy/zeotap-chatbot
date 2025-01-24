@@ -1,0 +1,50 @@
+/* chatbot/static/chatbot/style.css */
+.chat-container {
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chat-log {
+    flex: 1;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 400px; /* Fixed height for the chat log */
+  }
+
+
+  .input-area {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .user-message,
+  .bot-message {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    max-width: 70%;
+    clear: both;
+    word-wrap: break-word;
+  }
+
+  .user-message {
+    background-color: #e2f0cb;
+    align-self: flex-end;
+  }
+  .bot-message {
+     background-color: #d1f2eb;
+     align-self: flex-start;
+  }
+  #user-input {
+    flex: 1;
+    padding: 8px;
+  }
+  #send-button {
+    padding: 8px 12px;
+    margin-left: 5px;
+  }
